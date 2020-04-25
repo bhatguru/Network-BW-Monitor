@@ -1,0 +1,15 @@
+{
+	"_comment" : "Karnataka",
+	"KA-1.example.in" : {"em1": {"CIRCUIT_ID": "BANREL1R2ILL","OPERATOR": "reliance"}, "em2": {"CIRCUIT_ID": "tt32BAAN0123456","OPERATOR": "vodafone"}, "em3": {"CIRCUIT_ID": "01BANG012345678","OPERATOR": "tcl"}, "em4": {"CIRCUIT_ID": "","OPERATOR": ""}},
+	"KA-2.example.in" : {"em1": {"CIRCUIT_ID": "BANREL1R2ILL","OPERATOR": "reliance"}, "em2": {"CIRCUIT_ID": "tt32BAAN0123456","OPERATOR": "vodafone"}, "em3": {"CIRCUIT_ID": "01BANG012345678","OPERATOR": "tcl"}, "em4": {"CIRCUIT_ID": "","OPERATOR": ""}},
+	
+	"_comment" : "Delhi",
+	
+	"DL-1.example.in": {"em1":	{"CIRCUIT_ID": "0123dl0123456789", "OPERATOR": "tcl"}, "em2":{"CIRCUIT_ID": "1237456", "OPERATOR": "airtel"},"em3":{"CIRCUIT_ID": "", "OPERATOR": ""},	"em4": {"CIRCUIT_ID": "", "OPERATOR": ""}},
+	"DL-2.example.in": {"em1":	{"CIRCUIT_ID": "0123dl0123456789", "OPERATOR": "tcl"}, "em2":{"CIRCUIT_ID": "1237456", "OPERATOR": "airtel"},"em3":{"CIRCUIT_ID": "", "OPERATOR": ""},	"em4": {"CIRCUIT_ID": "", "OPERATOR": ""}},
+	"DL-3.example.in": {"em1":	{"CIRCUIT_ID": "0123dl0123456789", "OPERATOR": "tcl"}, "em2":{"CIRCUIT_ID": "1237456", "OPERATOR": "airtel"},"em3":{"CIRCUIT_ID": "", "OPERATOR": ""},	"em4": {"CIRCUIT_ID": "", "OPERATOR": ""}},
+	"_comment" : "Mumbai",
+	"MU-1.example.in": {"em1": {"CIRCUIT_ID": "54321789", "OPERATOR": "tcl"},"em2": {"CIRCUIT_ID": "", "OPERATOR": ""},"em3": {"CIRCUIT_ID": "1153345678", "OPERATOR": "airtel"},"em4": {"CIRCUIT_ID": "54321789", "OPERATOR": "reliance"}},
+	"MU-2.example.in": {"em1": {"CIRCUIT_ID": "60101100000961072", "OPERATOR": "reliance"},"em2": {"CIRCUIT_ID": "020MUM03003091423454", "OPERATOR": "tcl"},"em3": {"CIRCUIT_ID": "", "OPERATOR": ""},"em4": {"CIRCUIT_ID": "54321789", "OPERATOR": "airtel"}},
+	"MU3-3.example.in": {"em1": {"CIRCUIT_ID": "", "OPERATOR": ""},"em2": {"CIRCUIT_ID": "020MUM03003091423454", "OPERATOR": "tcl"},"em3": {"CIRCUIT_ID": "600000001051061", "OPERATOR": "reliance"},"em4": {"CIRCUIT_ID": "54321789", "OPERATOR": "airtel"}}
+}
