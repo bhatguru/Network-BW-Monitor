@@ -1,7 +1,7 @@
 # Network-BW-Monitor
 This is Mainly Developed for Monitoring the Internet Leased Lines connected to physical servers, this is tested and deployed on production(centos6.x).
 
-##More context on Developing this
+## More context on Developing this
 We have number of physical servers hosted on varios DC across india and outside india, and we use to get lot of issues of overutilising Network Bandwidth, network flapping etc. ther was no way to monitor this and same has been assigned me to find a solution.
 
 I Will be sharing this here thinking that, this will be helping some one who is in the same kind of setup/use cases,
@@ -18,15 +18,15 @@ Note:- This configs/paths may not directly work on your environment, would sugge
 In the above diagram, in the lef side we can see multiple regions/states(DCs) such as Karnataka, Delhi, Mumbai etc, each of the regions having multiple physical servers running and they are connected to multiple physical Internet lines of different different ISPs such as Vodafone, TCL, Reliance etc.
 
 We basically have 3 files
-###1. network_bandwidth_config.json
+### 1. network_bandwidth_config.json
     Here we define the configs such as `hostname`, `circuitID` `interfacename` for which interface connected and `operator` etc, go and modify accordingly, circuitid and hostnames are unique identifiers here.
 
-###2. network_bandwidth_monitor.cron
+### 2. network_bandwidth_monitor.cron
     This is the cron file which runs the script and pushes data to the pipeline every 10 sec.
     This holds the config file path and script path, modify the file paths here, you can ignore SIP conf file in this.
     copy this file under /etc/cron.d
 
-###3. network_bandwidth.sh
+### 3. network_bandwidth.sh
     Dependencies:
     - ifstat (please use linux repos such as Yum to install this package)
     - jq (this can also be installed using Yum ) 
@@ -36,7 +36,7 @@ We basically have 3 files
     here in our setup rsyslog ships the log to centrelised log server in Cloud Environment, from there file beat, picks the log and send it to logstash, then logstash will send to elastic serach, this is how our pipeline is set, it may differ for your environment, you have to modify the local output redirecting path to your setup, then finally visualise it in Kibana/ any other visualisatioin tool and done.
 
 
-###Thanks
+### Thanks
  
 
     
